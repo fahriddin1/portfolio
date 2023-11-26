@@ -63,10 +63,10 @@ const Portfolio1 = () => {
                </div>
          </div>
          <div className='about-me'>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-            <div className="imgnum">
+         <div className='imgnum'>
               <img src={Img6} alt="" className='me-l'/>
-            </div>
-            <div className="about">
+         </div>
+         <div className='about'>
               <h1>About me</h1>
               <p >I'm web developer based in Digital city</p>
               <p className='p-leader'>
@@ -76,8 +76,8 @@ const Portfolio1 = () => {
                     Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks
                 </p>
                 <button className='btn-desc'>Menu</button>
-            </div>
-          </div>
+         </div>
+         </div>
          <div className='expr-l'>                                                                                                                                                                                                                                                                                                                                                                                                                           
           <h1 className='respon-desc'>Field of knowledge</h1>
               <div className='three-d'>
@@ -159,15 +159,6 @@ const Portfolio1 = () => {
               <a href="https://youtube.com/@xolmuhammedov_zdes?si=tWOt362zrKOM3WuE" className='youtu'>youtube</a>
            </div>
          </div> 
-          <div className='user-name'>
-            <div className='user-desc'>
-              <h1 className='send-me'>Send me</h1>
-              <input type="Email" placeholder='Username' className='email-claa'/> <br />
-              <input type="Password" placeholder='Password' className='pasword-clas' />           
-              <textarea  cols="30" rows="10"></textarea>
-              <button className='butt-l'> <a href="mailto:f748743@gmail.com" className='list-none'>Submit</a> </button>                     
-            </div>
-         </div>
      </div>
   )
 }
