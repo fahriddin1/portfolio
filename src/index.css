@@ -6,9 +6,9 @@
     .nav-logo{
       transform: translateX(-190px);
     }
-    .f-leader{
+    /* .f-leader{
        
-    }
+    } */
 
    .a-leader{
     width: 100%;
@@ -52,10 +52,11 @@
 }
 @media only screen  and  (max-width: 350px) {
   .respon-desc{
-    margin-left: 50px;
+    margin-left: 60px;
+    transform: translateY(80px);  
   }
   .recenr{
-    margin-left: 40px;
+    margin-left: 70px;
   }
   .pl-desc{
     transform: translateX(-40px);
@@ -331,6 +332,10 @@ width: 400px;
 
 .expr-l{
   text-align: center;
+}
+
+.respon-desc{
+  margin-left: 50px;
 }
 
 .three-d{
@@ -688,7 +693,7 @@ p{
  margin-left:  200px;
  transform: translateY(-270px) translateX(650px);
 }
-
+  
 .butt-l:hover{
   background: linear-gradient(
     to right,
